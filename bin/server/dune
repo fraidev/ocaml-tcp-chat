@@ -1,0 +1,5 @@
+(executable
+ (name server)
+ (libraries async lwt)
+ (preprocess
+  (pps ppx_let)))
